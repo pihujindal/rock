@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 import tensorflow as tf
-model = tf.keras.models.load_model('C:/Users/Sakshi/Desktop/python/pro110/PRO-C110-Project-Dataset-main')
+model = tf.keras.models.load_model('keras_model.h5')
 # define a video capture object
 vid = cv2.VideoCapture(0)
   
